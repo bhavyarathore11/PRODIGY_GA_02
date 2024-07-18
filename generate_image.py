@@ -20,5 +20,5 @@ def generate_image(prompt, width=512, height=512, num_inference_steps=25):
 if __name__ == "__main__":
     prompt = "a red apple on a wooden table"
     image = generate_image(prompt)
-    image.show()  # Display the generated image
+    display(iamge)  # Display the generated image
     image.save("generated_image.png")  # Save the generated image
